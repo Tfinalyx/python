@@ -13,4 +13,4 @@ class Raton:
 		return cls.contador_ratones
 		
 	def __str__(self):
-		return f'Datos: {self._contador_ratones}|{Dipositivo_Entrada.__str__()}'
+		return f'Datos: {self._contador_ratones}|\n{Dipositivo_Entrada.__str__(self)}'

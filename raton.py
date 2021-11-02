@@ -7,10 +7,10 @@ class Raton:
 		Dispositivo_Entrada.__init_(self, tipo_entrada, marca)
 		self._id_raton = Raton.incrementar_contador()
 	
-		@classmetod 	
-		def incrementar_contador(cls):
-			cls.contador_ratones += 1
-			return cls.contador_ratones
+	@classmetod 	
+	def incrementar_contador(cls):
+		cls.contador_ratones += 1
+		return cls.contador_ratones
 		
 	def __str__(self):
-		return f'Datos: {self._contador_ratones}|{self_.marca}'
+		return f'Datos: {self._contador_ratones}|{Dipositivo_Entrada.__str__()}'
